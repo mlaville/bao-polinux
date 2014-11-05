@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objets>
+ <item>
+  <IdDoc>16</IdDoc>
+  <DOC_Libelle>IBAN</DOC_Libelle>
+  <DOC_Fic>iban_LAVILLE_MARC_00020426401.pdf</DOC_Fic>
+  <DOC_Etat>Etat</DOC_Etat>
+  <DOC_Visibilite>1</DOC_Visibilite>
+  <DOC_IdCOM>8</DOC_IdCOM>
+  <DOC_Descriptif></DOC_Descriptif>
+  <DOC_MotClef></DOC_MotClef>
+  <DOC_Nature></DOC_Nature>
+  <DOC_Tiers></DOC_Tiers>
+  <DOC_DateEcheance/>
+  <DOC_LibEcheance></DOC_LibEcheance>
+  <DOC_DateFinEcheance/>
+  <DOC_LibFinEcheance></DOC_LibFinEcheance>
+  <DOC_InfoComplementaires></DOC_InfoComplementaires>
+  <DOC_DateCreation>2012-11-18 22:46:56</DOC_DateCreation>
+  <DOC_CreePar>marc.laville@polinux.net</DOC_CreePar>
+  <DOC_DateModif>2012-11-18 22:46:56</DOC_DateModif>
+  <DOC_DateSuppr/>
+  <uri>http://polinux.bao-ged.fr/?tb=ged&amp;id=16</uri>
+ </item>
+</objets>

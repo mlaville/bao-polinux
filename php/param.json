@@ -1,0 +1,10 @@
+{
+	"societe" : "manu-cloud",
+	"courriel" : "manu@polinux.net",
+	"mail_demandeLogin" : "manu@polinux.net",
+	"mail_expediteurNotification" : "bao@polinux.net",
+	"txt_demandeLogin" : "Informations",
+	"rep_photo" : "../album/img/",
+	"esc_apostrophe" : 1,
+	"os_serveur" : "linux"
+}
