@@ -8,15 +8,15 @@
  * @version    0.1
  * @revision   $0$
  * 
- *  Configuration de la connexion  à la base de données
+ *  Configuration de la connexion  Ã  la base de donnÃ©es
  *
  * Licensed under the GPL license:
  *   http://www.opensource.org/licenses/mit-license.php
  */
 
 $loginServeur = 'localhost';
-$loginUsername = 'root';
-$loginPassword = '';
-$nomBase = 'dcmls_polinux';
+$loginUsername = 'user';
+$loginPassword = 'mdp';
+$nomBase = 'db-bao';
 
 ?>
