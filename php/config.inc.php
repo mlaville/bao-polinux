@@ -15,8 +15,8 @@
  */
 
 $loginServeur = 'localhost';
-$loginUsername = 'user';
-$loginPassword = 'mdp';
-$nomBase = 'db-bao';
+$loginUsername = 'root';
+$loginPassword = '';
+$nomBase = 'dcmls_polinux';
 
 ?>
