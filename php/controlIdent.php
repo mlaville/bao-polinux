@@ -22,11 +22,10 @@ include 'foncFichier.php';
 include 'selectUser.php';
 
 $success = isset($_SESSION['login'], $_SESSION['pass']);
-
-$user = $success ? $_SESSION['login'] : null;
-$erreur = $success ? null : "Identité non Définie";
+$erreur = $success ? null : array("reason"=>"Identité non Définie");
 
 if($success) {
+//	$user = $success ? $_SESSION['login'] : null;
 	$arrUtilisateur = selectUser( $dbConnect, $_SESSION['login'], $_SESSION['pass'] );
 } else {
 	$arrUtilisateur = selectUser( $dbConnect, null, null );

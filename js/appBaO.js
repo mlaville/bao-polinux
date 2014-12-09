@@ -83,7 +83,9 @@ Ext.onReady(function(){
 				// Affichage Panneau de login 
 				// Un transmet le texte du message de demande de log et le nom de la societe
 				if( obj.errors != undefined ) {
-					alert( obj.errors.reason );
+					if( obj.user != null ) {
+						alert( obj.errors.reason );
+					}
 				}
 				PanelLogin(false, obj.paramJson.txt_demandeLogin, obj.societe);
 			}

@@ -5,7 +5,7 @@ function selectUser( $conDb, $login, $pass ) {
 	$success = ( $login != null );
 
 	$user = $login;
-	$erreur = $success ? null : "Identité non Définie";
+	$erreur = $success ? null : array( "reason" => "Identité non Définie");
 	$IdUSR = null;
 	$droits = null;
 	$nbDroitAction = null;
